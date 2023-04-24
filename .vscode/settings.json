@@ -1,0 +1,14 @@
+{
+    "liveServer.settings.port": 5501,
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "maven.view": "flat",
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "files.exclude": {
+        "**/*.log": true,
+        "**/.DS_Store": true
+    },
+    "files.associations": {
+        "*.jsp": "html"
+    }
+}

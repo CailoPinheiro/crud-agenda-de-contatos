@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class DAO {
 
     String driver = "com.mysql.cj.jdbc.Driver";
-    String url = "127.0.0.1:3306/dbagenda?iseTimezone=true&serverTimezone=UTC";
+    String url = "jdbc:mysql://127.0.0.1:3306/dbagenda?useTimezone=true&serverTimezone=UTC";
     String user = "root";
     String password = "dados";
 

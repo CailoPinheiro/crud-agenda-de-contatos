@@ -1,3 +1,8 @@
+/**
+ * Validar campos obrigatorios
+ * @author Cailo Pinheiro
+ */
+
 function validar() {
   let nome = formContato.nome.value;
   let fone = formContato.fone.value;

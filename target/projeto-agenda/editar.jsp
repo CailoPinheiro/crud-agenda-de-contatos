@@ -19,20 +19,19 @@
                     <form method="get" name="formContato" action="update">
                         <table>
                             <tr>
-                                <td><input class="box-form" id="form-idcon" type="text" name="idcon" readonly
-                                        value="<%out.print(request.getAttribute("idcon"));%>"></td>
+                                <td>
+                                    <input class="box-form" id="form-idcon" type="text" name="idcon" readonly value="<%out.print(request.getAttribute(" idcon"));%>">
+                                </td>
                             </tr>
                             <tr>
-                                <td><input class="box-form" type="text" name="nome"
-                                        value="<%out.print(request.getAttribute("nome"));%>"></td>
+                                <td><input class="box-form" type="text" name="nome" value="<%out.print(request.getAttribute(" nome"));%>"></td>
                             </tr>
                             <tr>
-                                <td><input class="box-form" type="text" name="fone"
-                                        value="<%out.print(request.getAttribute("fone"));%>"></td>
+                                <td><input class="box-form" type="text" name="fone" value="<%out.print(request.getAttribute(" fone"));%>"></td>
                             </tr>
                             <tr>
-                                <td><input class="box-form" type="text" name="email"
-                                        value="<%out.print(request.getAttribute("email"));%>"></td>
+                                <td><input class="box-form" type="text" name="email" value="<%out.print(request.getAttribute(" email"));%>">
+                                </td>
                             </tr>
                         </table>
                         <input class="button" type="button" value="Salvar" onclick="validar()">

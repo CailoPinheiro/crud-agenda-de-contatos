@@ -17,6 +17,7 @@
     <maven.compiler.target>18</maven.compiler.target>
 </properties>
 
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -54,6 +55,21 @@
     <finalName>projeto-agenda</finalName>
     <pluginManagement>      <!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
+
+      <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-javadoc-plugin</artifactId>
+            <version>3.3.1</version>
+            <executions>
+                <execution>
+                    <id>attach-javadocs</id>
+                    <goals>
+                        <goal>jar</goal>
+                    </goals>
+                </execution>
+            </executions>
+        </plugin>
+
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
           <version>3.1.0</version>
